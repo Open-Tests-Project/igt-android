@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+<string name="app_name">Iowa Gambling Task</string>
+<string name="minuti"> min</string>
+<string name="ore"> horas</string>
+<string name="tempo_impiegato">Tempo:</string>
+<string name="error_no_sd">Sem cart&#227;o SD \nImposs&#237;vel salvar</string>
+<string name="api_level_nopdf">N&#227;o &#233; poss&#237;vel salvar PDF \nO arquivo ser&#225; salvo como PNG</string>
+<string name="choice">Baralho escolhido:</string>
+<string name="reward">Ganhou:</string>
+<string name="net_gain">Resultado:</string>
+<string name="penalty">Perdeu:</string>
+<string name="total">Total: $</string>
+<string name="titolo_gambling">Toque na tela para selecionar o baralho </string>
+<string name="finish">	Obrigado por ter participado deste experimento. Voc&#234; j&#225; pode sair. 
+    Por favor, comunique ao respons&#225;vel que voc&#234; terminou a atividade. </string>
+<string name="congratulations">Parab&#233;ns!</string>
+<string name="hai_guadagnato">Voc&#234; conseguiu um total de: </string>
+<string name="reset">Reset</string>
+<string name="enter_participant_identifier">Identifique o participante</string>
+	<string name="spiegazione2"> Na tela seguinte, voc&#234; ver&#225; um jogo com quatro baralhos de cartas. 
+	    O objetivo do jogo &#233; ganhar o m&#225;ximo de dinheiro poss&#237;vel e evitar perder dinheiro. 
+	    Voc&#234; come&#231;ar&#225; com um empr&#233;stimo de $2000. 
+	    Para come&#231;ar o jogo, escolha qualquer carta de um dos baralhos.
+		Para cada carta que voc&#234; selecionar, o programa lhe dir&#225; que voc&#234; ganhou certa
+		quantia de dinheiro, mas tamb&#233;m poder&#225; lhe dizer que voc&#234; perdeu certa quantia de dinheiro. 
+		&#192;s vezes voc&#234; pode n&#227;o perder dinheiro algum, &#192;s vezes voc&#234; 
+		pode perder a mesma quantia que ganhou e &#192;s vezes voc&#234; 
+		pode perder mais dinheiro do que ganhou. 
+		A barra verde no final da tela aumenta de tamanho toda a vez que voc&#234; 
+		ganhar mais dinheiro do que perdeu. A barra verde diminui de tamanho toda a vez que voc&#234; 
+		perder mais dinheiro do que ganhou. Se a barra ficar vermelha, voc&#234; 
+		come&#231;a a dever dinheiro para o programa. No canto direito da tela voc&#234; 
+		poder&#225; acompanhar o valor total exato que voc&#234; possui para continuar jogando. 
+		Voc&#234; &#233; absolutamente livre para trocar de baralho quantas vezes desejar e quando quiser. 
+		Voc&#234; n&#227;o saber&#225; quando o jogo termina, apenas siga jogando at&#233; 
+		o programa indicar o fim do jogo. 
+		\nUma dica: dentre os quatro baralhos de cartas, 
+		existem alguns que s&#227;o piores do que os outros, e para ganhar, voc&#234; deve 
+		tentar n&#227;o escolher os baralhos ruins. Voc&#234; pode achar todos ruins, mas h&#225; 
+		baralhos piores. N&#227;o importa o quanto voc&#234; esteja perdendo, voc&#234; 
+		ainda pode ganhar dinheiro evitando os baralhos que s&#227;o piores. O programa n&#227;o altera 
+		a ordem dos baralhos durante o jogo. 
+		\n
+		<!-- \nToque na tela para iniciar -->
+	</string>
+<string name="select_deck_by_touching"> Toque na tela para selecionar o baralho </string>
+<!-- <string name="spiegazione2"> You are about to take part in an experiment on decision making. 
+    For each card you draws, you will get a reward. 
+    This reward depends on the deck you choose, and each deck has a fixed reward. You will also get a penalty, 
+    which will cost you money. Penalties are somewhat random; the penalty you will get is different for 
+    different cards in the deck. Sometimes the penalty will be zero, and sometimes it will be larger, 
+    at times even larger than the reward you get for choosing that deck. You will start with a $2000 loan 
+    and you should try to get as much money as possible by the end of the study. Touch to start </string>
+<string name="spiegazione3">At the bottom of the screen, there is a graph which shows you your current earnings. 
+    The more money you have, the larger the bar will be.\nNow, you will begin the test.\nDo you have any 
+    question?\nTouch to continue</string> -->
+<string name="start">Iniciar </string>
+<string name="grafico">Gr&#225;ficos</string>
+<string name="profilo_delle_carte_selezionate">Comportamento de sele&#231;&#227;o de cartas</string>
+<string name="finish_titolo">Fim</string>
+<string name="total_number_of_cards">N&#250;mero de cartas selecionadas de cada baralho</string>
+<string name="grafico1">Gr&#225;fico 1</string>
+<string name="grafico2">Gr&#225;fico 2</string>
+<string name="exit">Sair</string>
+<string name="salva">Salvar Pdf</string>
+<string name="salva_csv">Salvar Csv</string>
+<string name="salvato">Salvo</string>
+<string name="info">Info</string>
+<string name="help">Ajuda</string>
+<string name="help_message1"> Este App foi desenvolvido para aplica&#231;&#227;o do \“Iowa 
+    Gambling Task\” (IGT) em tablets e smartphones com Android. \nAp&#243;s incluir a 
+    identifica&#231;&#227;o do sujeito, voc&#234; ver&#225; uma explica&#231;&#227;o do IGT. 
+    \nA explica&#231;&#227;o em portugu&#234;s foi adaptada de SCHNEIDER, D. D. G. (2004). 
+    Iowa Gamblig Task: Cosidera&#231;&#245;es desenvolvimentais e implica&#231;&#245;es 
+    neuropsicol&#243;gicas e psicom&#233;tricas. Tese de doutorado, Instituto de Psicologia, 
+    Universidade Federal do Rio Grande do Sul, Porto Alegre. \nPara fundamenta&#231;&#227;o te&#243;rica 
+    e informa&#231;&#245;es sobre a aplica&#231;&#227;o t&#233;cnica do teste, dirigir-se aos artigos 
+    de desenvolvimento e caracteriza&#231;&#227;o do IGT: \n(1) BECHARA, A., DAMASIO, A.R., 
+    DAMASIO, H. e ANDERSON, S. (1994), Insensitivity to future consequences following damage to 
+    human prefrontal cortex. Cognition, n. 50, pp. 7-12. (2) BECHARA, A., TRANEL, D. e DAMASIO, H. 
+    (2000) Characterization of decision-making deficit of patients with ventromedial prefrontal 
+    cortex lesions. Brain, n. 123, pp. 2189-2202. \n\nAo final da atividade, o pesquisador poder&#225; 
+    visualizar o resultado do teste em dois arquivos PDF. Basta tocar no &#237;cone Menu e 
+    posteriormente tocar em gr&#225;ficos. O arquivo ser&#225; salvo em cart&#227;o SD com o 
+    nome: \“iowa\” + as duas primeiras letras de identifica&#231;&#227;o do sujeito. 
+    Aparelhos com Android Eclair 2.1 ou anterior podem salvar 2 arquivos PNG com os gr&#225;fico 
+    ao inv&#233;s do arquivo PDF. \n\nAdicionalmente, na op&#231;&#227;o Ajustes do Menu da tela 
+    inicial, voc&#234; poder&#225; selecionar as op&#231;&#245;es para o experimento (n&#227;o presentes 
+    nos artigos mencionados acima) como: som e vibra&#231;&#227;o associados com perdas e ganhos 
+    (n&#227;o dispon&#237;vel para Motorola Xoom) e contador de sele&#231;&#227;o</string>
+<string name="pi_di_un_giorno">mais que um dia</string>
+<string name="meno_di_un_minuto">menos que um minuto</string>
+<string name="introduzione">Introdu&#231;&#227;o</string>
+<string name="settings">Ajustes</string>
+<string name="vibration">Vibrar</string>
+<string name="vibrazione_subtitle">Vibra&#231;&#227;o quando a perda for maior que o ganho</string>
+<string name="suono_errore">Som de perda</string>
+<string name="suono_corretto">Som de ganho</string>
+<string name="suono_errore_summary"> Som quando a perda for maior que o ganho </string>
+<string name="suono_corretto_summary">Som quando o ganho for maior ou igual a perda</string>
+<string name="nome">Nome</string>
+<string name="tempo">Tempo</string>
+<string name="score">Score</string>
+<string name="contatore_selezioni">Contador de sele&#231;&#227;o</string>
+<string name="contatore_selezioni_summary">Visualiza&#231;&#227;o do n&#250;mero de escolhas realizadas</string>
+<string name="selezione_n">Sele&#231;&#227;o n:</string>
+<string name="spiegazione">Explica&#231;&#227;o:</string>
+<string name="vuoi_terminare_test">Deseja abortar o teste?</string>
+
+	
+	<string name="deck">baralho</string>
+		<string name="css_name">nome</string>
+	<string name="css_reward">ganhou</string>
+	<string name="css_penalty">perdeu</string>
+	<string name="css_gain">resultado</string>
+	<string name="css_total">total</string>
+	<string name="css_response_time">tempo_de_resposta</string>
+	<string name="css_touch_speed">velocidade_de_toque</string>
+	<string name="css_pressure">pressao</string>
+	<string name="css_pressure_style">pressao_style</string>		
+	<!-- <string name="css_date">data</string> -->
+
+	<string name="my_continue">Continuar</string>
+	
+	<!-- da qui in poi chiedi conferma a rodrigo -->
+	<string name="touch_test_button_label">Teste de press&#227;o</string>
+	<string name="touch_pressure">press&#227;o:</string>
+	<string name="pressure_style">estilo da press&#227;o:</string>
+	<string name="touch_pressure_title">Press&#227;o do toque</string>
+	<string name="touch_speed">velocidade do toque (ms):</string>
+	
+	<string name="detects_the_pressure">Registro de press&#227;o</string>
+	
+	<!-- Informa&#231;&#245;es sobre o detec&#231;&#227;o de press&#227;o em dispositivos touch screen -->
+	<!-- <string name="detects_the_pressure_info">Informa&#231;&#245;es sobre o detec&#231;&#227;o 
+	    				de press&#227;o em dispositivos touch screen</string> -->
+	<string name="detects_the_pressure_info">Registro das caracteristicas do toque na tela</string>	
+	
+	
+	<string name="detects_the_pressure_text_info">
+	    Algumas medidas experimentais foram incorporadas com a finalidade de 
+	    registrar as caracter&#236;sticas do toque na tela, sendo: a press&#227;o, 
+	    o estilo da press&#227;o e a velocidade do toque. 
+	    
+	    \nO registro das caracter&#236;sticas do toque no Android é dependente do aparelho usado. 
+	    Nem todos os aparelhos est&#227;o habilitados para registrar as medidas de toque. 
+	    Ademais, os aparelhos possuem calibra&#231;&#245;es de f&#225;brica pr&#243;prias e podem apresentar 
+	    valores diferentes entre eles. 
+	    
+	    \nQuando o aparelho est&#225; habilitado, o valor da press&#227;o varia entre os valores 0.0 até 1.0. 
+	    No entanto, valores maiores que 1.0 podem ser registrados dependendo da calibra&#231;&#227;o 
+	    de f&#225;brica do aparelho. 
+	    A press&#227;o pode ser medida em dois momentos: (1) quando o dedo toca a tela e (2) 
+	    quando deixa de tocar a tela. 
+	    O dado registrado no arquivo CSV representa a média entre os dois valores citados. 
+	    Quando o aparelho n&#227;o est&#225; habilitado, o valor registrado é sempre 1.0. 
+	    
+	    \nAdicionalmente, para cada toque h&#225; uma segunda medida chamada \"Estilo da press&#227;o\" 
+	    que possui apenas tr&#234;s caracter&#236;sticas nominais: LOW_HIGH (quando a press&#227;o 
+	    inicial do toque é menor que a press&#227;o final), HIGH_LOW (quando a press&#227;o inicial 
+	    do toque é maior que a final) e EQUAL (quando a press&#227;o inicial é igual a final). 
+	    
+	    \nA Velocidade do toque é uma terceira medida que  n&#227;o depende da calibra&#231;&#227;o 
+	    de press&#227;o e, portanto, pode ser registrada em qualquer aparelho.   
+	    
+	    \"Velocidade do toque\" é o registro em milisegundos do tempo de contato com a tela. 
+	    
+	    \n\n Resumindo, as tr&#234;s caracter&#236;sticas do toque s&#243; poder&#227;o ser 
+	    registradas em aparelhos habilitados e a compara&#231;&#227;o entre sujeitos s&#243; poder&#225; 
+	    ser realizada através da utiliza&#231;&#227;o de um mesmo aparelho. \n Portanto, o registro e armazenamento 
+	    dos dados em CSV é uma op&#231;&#227;o que deve ser habilitada no menu Ajustes. 
+	    
+	    \n\n Para melhor compreens&#227;o destas medidas, voc&#234; poder&#225; habilitar um bot&#227;o de 
+	    testes na tela inicial que detecta e mostra em tempo real a Press&#227;o, o Estilo da press&#227;o e 
+	    a Velocidade da press&#227;o.
+	    
+	 </string>  				
+	    				
+	<string name="record_the_pressure">Registro da press&#227;o</string>	
+	<string name="csv_file_info_text">Resumo dos dados salvos no arquivo CSV</string>		
+
+	<string name="test_button_label">Bot&#227;o de testet</string>	
+	<string name="show_test_button_text">Mostrar o bot&#227;o de teste na tela inicial</string>
+
+</resources>

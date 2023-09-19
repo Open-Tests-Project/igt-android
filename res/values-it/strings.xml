@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Iowa Gambling Task</string>
+    <string name="minuti"> min</string>
+    <string name="ore"> ore</string>
+    <string name="tempo_impiegato">Tempo:</string>
+    <string name="error_no_sd">Scheda SD non presente\nNon sarà possibile salvare
+		questo lavoro</string>
+    <string name="api_level_nopdf">Non è possibile salvare in PDF\nVerranno salvati 2
+		file PNG</string>
+    <string name="choice">Scelta:</string>
+    <string name="reward">Vincita:</string>
+    <string name="net_gain">Guadagno:</string>
+    <string name="penalty">Perdita:</string>
+    <string name="total">Totale: $</string>
+    <string name="titolo_gambling">Selezionare i mazzi con un tocco</string>
+    <string name="finish">Il test è finito. Grazie per aver partecipato.
+		\nPer favore, avverta lo sperimentatore.</string>
+    <string name="congratulations">Congratulazioni!</string>
+    <string name="hai_guadagnato">Ha guadagnato un totale di:</string>
+    <string name="reset">Azzera</string>
+    <string name="enter_participant_identifier">Inserire il nome del partecipante</string>
+    <string name="spiegazione1">Sta per iniziare un esperimento che
+		riguarda i
+		processi decisionali. Inizierà con una somma iniziale
+		di 2000 euro
+		virtuali.
+		Dovrà selezionare una carta da ognuno dei 4 mazzi; ad
+		ogni
+		selezione riceverà una ricompenza ma potrà anche perdere dei soldi
+		(l\'ammontare della vincita e l\'eventuale perdita dipenderà dal mazzo
+		dal quale
+		ha selezionato la carta). Il suo obbiettivo è
+		quello di guadagnare quanti
+		più soldi possibile e dovrà continuare a selezionare
+		le carte fino alla
+		fine della procedura. Toccare lo schermo per continuare</string>
+    <string name="select_deck_by_touching">Tocca uno dei mazzi per selezionarlo</string>
+    <string name="spiegazione2">		
+        Sta per iniziare un esperimento che riguarda i processi decisionali e
+		utilizza 4 mazzi di carte.
+		\nPer ogni carta che sceglie, riceverà una ricompensa in base al mazzo che ha scelto. 
+		Potrà anche ricevere una penalità, che le farà perdere dei soldi.
+		Le penalità variano in base al mazzo e alla carta selezionata e possono
+		essere maggiori o minori rispetto alla ricompensa guadagnata.
+		Dovrà guadagnare quanti più soldi possibile
+		fino alla fine dell\'esperimento.
+		<!-- \nToccare lo schermo per iniziare -->
+	</string>
+    <string name="spiegazione3">At the bottom of the screen, there is a graph which
+		shows you your current earnings. The more money you have, the larger
+		the bar will be.\nNow, you will begin the test.\nDo you have any
+		question?\nTouch to continue</string>
+    <string name="start">Inizio</string>
+    <string name="grafico">Grafici</string>
+    <string name="profilo_delle_carte_selezionate">Profilo delle carte selezionate</string>
+    <string name="finish_titolo">Fine</string>
+    <string name="total_number_of_cards">Carte selezionate per ogni mazzo</string>
+    <string name="grafico1">Grafico 1</string>
+    <string name="grafico2">Grafico 2</string>
+    <string name="exit">Exit</string>
+    <string name="salva">Salva Pdf</string>
+    <string name="salva_csv">Salva Csv</string>
+    <string name="salvato">Salvato</string>
+    <string name="info">Info</string>
+    <string name="help">Help</string>
+    <string name="about_message1">Questo programma riproduce fedelmente il test
+		neuro-psicologico denominato \"Iowa gambling task\",
+		descritto per
+		la prima volta nell\'articolo:\n BECHARA, A., DAMASIO,
+		A.R., DAMASIO,
+		H. e ANDERSON, S. (1994), Insensitivity to future
+		consequences
+		following damage to human prefrontal cortex. Cognition, n.
+		50, pp.
+		7-12.\n\nQuest\'opera è soggetta alla licenza Creative Commons
+		Attribuzione - Non opere derivate 3.0. Per visionare una copia di
+		questa
+		licenza:\nhttp://creativecommons.org/licenses/by-nd/3.0/it/deed.it\nAltrimenti
+		si può scrivere a Creative Commons, 171 Second Street, Suite 300, San
+		Francisco, California, 94105, USA.\n\nQuesto programma è distribuito
+		\"As Is\", nella speranza che possa essere utile, ma SENZA
+		FORNIRE NESSUN TIPO DI GARANZIA.
+		\n\nLe librerie utilizzate per i
+		grafici
+		sono disponibili:\nhttp://www.achartengine.org
+		\n\nLe librerie
+		utilizzate per salvare i file pdf sono
+		disponibili:\nhttp://itextpdf.com/itext.php
+		\n\nGrazie a The working
+		group per le icone dei grafici utilizzate nei menu:
+		\nhttp://blog.twg.ca/2010/11/retina-display-icon-set
+		
+		\n\nGrazie a Honza Dousek per le icone Salva-Pdf e Salva-Csv utilizzate nel menu:
+		\nhttps://www.iconfinder.com/Lexter
+		
+		\n\nGrazie a David Bellot per le
+		immagini del dorso delle carte:
+		\nhttp://commons.wikimedia.org/wiki/File:Card_back_01.svg
+		
+		\n\nGrazie a <i><b>Rodrigo Hohl</b></i> per la traduzione in Portoghese.
+		
+		\n\n\nSpiegazione delle autorizzazioni richieste:
+		\n1) Archiviazione: il dispositivo può salvare un file pdf di report sulla scheda di memoria.
+		\n2) Controlli hardware: il dispositivo può vibrare.
+
+		\n\nPer fornire il vostro feedback, segnalare problemi, suggerire
+		nuove funzionalità o richiedere applicazioni personalizzate,
+		scrivete a:\nzsimolabs@gmail.com
+		\n\n
+	</string>
+	
+    <string name="help_message1">
+        Quest\'applicazione è stata pensata per poter
+		somministrare ai soggetti sperimentali l\' \"Iowa gambling
+		task\" utilizzando smartphone o tablet con sistema operativo Android.
+		\nAll\'avvio, dopo la schermata per inserire l\'identificativo
+		del soggetto, comparirà una breve spiegazione dell\'esperimento. 
+		Si rimanda allo sperimentatore un\'eventuale introduzione più ampia.
+		\nAbbiamo scelto di non inserire all\'interno dell\'applicazione
+		materiale circa i presupposti teorici o i particolari
+		tecnici che riguardano questa procedura, in modo da non
+		correre il rischio di influenzare il soggetto. 
+		Per tali informazioni, si rimanda all\'articolo
+		cui quest\'applicazione si ispira:
+		\nBECHARA, A., DAMASIO, A.R., DAMASIO, H. e ANDERSON, S. (1994), Insensitivity to future
+		consequences following damage to human prefrontal cortex. Cognition, n. 50, pp. 7-12.
+		\nL\'interfaccia grafica è stata semplificata, rimuovendo la task bar nelle
+		schermate nelle quali i soggetti utilizzano il terminale, in
+		modo che non vengano distratti dai contenuti del terminale.
+		\nAlla fine della procedura, premendo il tasto menu, lo sperimentatore
+		potrà visualizzare 2 grafici contenenti i risultati, salvare un file PDF di riepilogo
+		ed esportare i dati registrati in un file CSV.
+		I files, verranno salvato nella scheda sd del dispositivo nella cartella chiamata \"iowa\" 
+		e avranno il nome \"iowa\", seguito dalle prime due lettere del nome del soggetto
+		e dalla data. 
+		I dispositivi con sistema operativo Android 2.1 Eclair (api level 7) o precedenti,
+		potranno salvare 2 file PNG con i grafici dei risultati al posto del documento PDF.
+		
+		\n\nNel menu impostazioni si possono selezionare delle opzioni 
+		sperimentali (non presenti nel suddetto articolo) quali: associare un 
+		suono o una breve vibrazione (vibrazione non presente su Motorola Xoom) alle
+		vincite e alle perdite, visualizzare la progressione delle selezioni.
+		
+		\n\nDalla versione 1.7, è stata introdotta la possibilit&#224; di salvare tutti i dati registrati
+		dall\'applicazione in forma tabellare in un file CSV. I dati sono:\n
+		- nome del partecipante\n
+		- numero del trial\n
+		- mazzo selezionato\n
+		- vincita\n
+		- perdita\n
+		- guadagno (vincita - perdita)\n
+		- totale guadagnato\n
+		- tempo di risposta (l\'intervallo di tempo in millisecondi tra i trials)\n
+		- pressione esercitata sul display (se abilita)\n		
+		- stile della pressione (se abilitata)\n
+		- velocit&#224; del tocco (per quanti millisecondi il dito è a contatto col display)\n
+		- ora\n
+		- data\n
+		
+		
+	</string>
+    <string name="pi_di_un_giorno">più di un giorno</string>
+    <string name="meno_di_un_minuto">meno di un minuto</string>
+    <string name="introduzione">Introduzione</string>
+    <string name="settings">Impostazioni</string>
+    <string name="effect">Opzioni per la ricerca sperimentale</string>
+    <string name="vibration">Vibrazione</string>
+    <string name="vibrazione_subtitle">Breve vibrazione se la penalità ricevuta è maggiore
+	della vincita</string>
+    <string name="suono_errore">Suono penalità</string>
+    <string name="suono_corretto">Suono vincita</string>
+    <string name="suono_errore_summary">Riproduci un suono se la penalità ricevuta è maggiore
+	della vincita</string>
+    <string name="suono_corretto_summary">Riproduci un suono anche quando la vincita è maggiore 
+	della penalità</string>
+    <string name="nome">Nome</string>
+    <string name="tempo">Tempo</string>
+    <string name="score">Risultato</string>
+    <string name="about">Info</string>
+    <string name="make_donation">Donazione</string>
+    <string name="donazione_summary">	    Quest\'applicazione è gratuita e senza pubblicità.
+	    Se vi è stata utile e se lo ritenete opportuno, potete contribuire al
+	    lavoro dello sviluppatore facendo una donazione.</string>
+    <string name="donazione">donazione</string>
+    <string name="paypal_input_error">ERRORE\nIl valore inserito non è corretto</string>
+    <string name="testo_donazione">Inserisci quanto vuoi donare (in EURO) e clicca sul bottone giallo sottostante</string>
+    <string name="grazie_donazione">Grazie per la donazione!</string>
+    <string name="donazione_operazione_annullata">Operazione annullata</string>
+    <string name="contribuisci">Contribuisci</string>
+    <string name="changelog">Registro delle modifiche</string>
+    <string name="changelog_testo">
+        	1.7.2:
+        	\nCorretto errore nell\'ordine delle etichette nel primo grafico.
+        	\nCorretto il numero del mese nel nome dei files che partiva da zero.
+        
+        	\n\n1.7.1:
+        	\nMigliore traduzione in Portoghese.
+        	\nPiccoli miglioramenti.
+        
+        	\n\n1.7:
+        	\nSalva i dati registrati dall\'applicazione in un file CSV.
+        
+        	\n\n1.6:
+        	\nAggiunto il supporto alla lingua Portoghese.
+        	\nGrazie a Rodrigo Hohl per la traduzione.
+        	
+        	\n\n1.5:
+        	\nMigliorata la risoluzione per il kindel Fire e tablet con schermo da 7 pollici.
+        	\nAggiunta la possibilità di spostare l\'app sulla scheda SD.
+        	\nCambiata l\'interfaccia grafica.
+        	
+   			\n\n1.4:
+   			\nCome è stato suggerito da un utente, ora i grafici nel file pdf sono più grandi.
+   			\nMigliorata la definizione delle icone del menu.
+   			\nMigliorato il controllo del volume.
+   			\nCorretti refusi.
+   			
+        	\n\n1.3:
+        	\nPer aiutare lo sperimentatore a studiare lo strumento,
+        	abbiamo introdotto la possibilità di visualizzare la progressione delle carte selezionate.
+        	
+        	\n\n1.2:
+	        \nL\'applicazione, mantenendo le funzionalità precedenti, è ora
+	        gratuita: abbiamo scelto di privilegiarne la distribuzione e la diffusione, in
+	        modo da poterla migliorare e validare attraverso un maggior numero di feedback da 
+	        parte di coloro che la utilizzeranno. Per chi lo ritenesse opportuno, abbiamo
+	        introdotto la possibilità di fare una donazione.
+	        
+	        \n\n1.1:
+	        \nAggiunti suoni e vibrazione (la vibrazione non è disponibile per Motorola Xoom) </string>
+    <string name="contatore_selezioni">Contatore selezioni</string>
+    <string name="contatore_selezioni_summary">Visualizza la progressione della carte selezionate</string>
+    <string name="selezione_n">Selezione n:</string>
+	<string name="spiegazione">Spiegazione:</string>
+	<string name="vuoi_terminare_test">Vuoi terminare il test?</string>
+	<string name="si">Si</string>
+	 
+
+	<string name="deck">mazzo</string>
+		<string name="css_name">nome</string>
+	<string name="css_reward">vincita</string>
+	<string name="css_penalty">perdita</string>
+	<string name="css_gain">guadagno</string>
+	<string name="css_total">totale</string>
+	<string name="css_response_time">tempo_di_risposta</string>
+	<string name="css_touch_speed">velocita_del_tocco</string>
+	<string name="css_pressure">pressione</string>
+	<string name="css_pressure_style">stile_della_pressione</string>	
+	<!-- <string name="css_date">data</string> -->
+	
+	<string name="touch_test_button_label">Test della pressione</string>
+	<string name="touch_pressure">pressione:</string>
+	<string name="pressure_style">stile della pressione:</string>
+	<string name="touch_pressure_title">Pressione del tocco</string>
+	<string name="touch_speed">velocità del tocco (ms):</string>
+	
+	<string name="detects_the_pressure">Rileva la pressione</string>
+<!-- 	<string name="detects_the_pressure_info">Informazioni sul rilevamento della pressione 
+	    								su dispositivi touch screen</string> -->
+	<string name="detects_the_pressure_info">Rilevare lo stile del tocco 
+	    								su dispositivi touch screen</string>	    								
+	    								
+	
+	<string name="detects_the_pressure_text_info">
+	    		Vengono introdotte alcune misure sperimentali allo scopo di 
+	    		intercettare lo stile del tocco dei soggetti: la pressione esercitata sulla 
+	    		superficie dello schermo, lo stile della pressione, la velocit&#224; del tocco.
+	    		
+	    		\nIl rilevamento della pressione su dispositivi
+				Android non è implementato in modo univoco e varia a seconda delle marche e
+				dei modelli. Quindi, non tutti i dispositivi supportano
+				il rilevamento della pressione e i dispositivi che la supportano possono essere
+				calibrati in modo diverso e restituire valori differenti.
+				
+				Quando supportato, il dato riportato è un valore normalizzato in un range tra 0.0 e 1.0, 
+				anche se valori superiori ad 1.0 possono essere generati in base alla specifica 
+				implementazione dei driver. 
+				La pressione può essere rilevata in due momenti: quando il 
+				dito inizia il contatto con lo schermo e quando il dito interrompe il contatto con
+				lo schermo: la misura salvata nel file CSV &#232; la media di questi due valori. 			
+				Quando non supportato, viene restituito sempre il valore 1.0.
+				
+				\nInoltre, per ogni tocco, viene registrata un seconda misura chiamata \"Stile della pressione\",
+				che pu&#242; assumere solo tre valori: LOW_HIGH (quando la pressione iniziale del
+				tocco &#232; minore della pressione finale), HIGH_LOW (quando la pressione iniziale
+				&#232; maggiore di quella finale) e EQUAL (quando le due pressioni sono uguali). 
+				
+				\nPer intercettare lo stile del tocco, con un dato slegato dal rilevamento della
+				pressione e quindi disponibile su qualsiasi dispositivo, viene registrata la \"Velocit&#224;
+				del tocco\", ovvero, per ogni tocco, la durata (in millisecondi) del contatto con lo schermo. 
+				
+				\n\nRiassumendo, nell\'ambito dell\'Iowa Gambling Task, l\'utilizzo della pressione
+				pu&#242; aver valore solo se il dispositivo supporta il rilevamento della pressione
+				e il test viene somministrato a tutti i soggetti utlizzando lo stesso dispositivo.
+				\nPertanto, la registrazione e il salvataggio nel file CSV della pressione è un opzione
+				che va abilitata nel menu Impostazioni (di default non viene registrata).
+				
+				\n\nPer la verifica e la comprensione di queste misure, è possibile selezionare
+				l\'opzione della visualizzazione nella schermata iniziale di un bottone che rileva e 
+				mostra la pressione, lo stile della pressione e la velocit&#224; del tocco. 	    
+	</string>
+	<string name="record_the_pressure">Registra la pressione</string>	
+	<string name="test_button_label">Bottone di test</string>	
+	<string name="show_test_button_text">Mostra il bottone per testare la pressione
+	    		nella schermata principale</string>		 
+	    		
+	<string name="csv_file_info_text">Sintesi dei dati salvati nel file CSV</string>	
+	 
+	<string name="my_continue">Continua</string>
+	
+</resources>

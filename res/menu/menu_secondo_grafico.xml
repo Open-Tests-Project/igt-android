@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/secondo_grafico" android:title="@string/grafico1"
+		android:icon="@drawable/ic_grafico1"></item>
+	<item android:title="@string/salva" android:id="@+id/salva2"
+		android:icon="@drawable/ic_menu_save"></item>
+	
+		<item android:title="@string/salva_csv" android:id="@+id/salva_css"
+		android:icon="@drawable/save_csv_icon"></item>
+	
+	<item android:title="@string/exit" android:id="@+id/secondo_grafico_exit"
+		android:icon="@drawable/ic_exit"></item>
+</menu>

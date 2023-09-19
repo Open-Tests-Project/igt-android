@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_menu_info"
+        android:title="@string/info">
+    </item>
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_menu_help"
+        android:title="@string/help">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_menu_preferences"
+        android:title="@string/settings">
+    </item>
+    <item
+        android:id="@+id/iowa_activity"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/exit">
+    </item>
+
+</menu>

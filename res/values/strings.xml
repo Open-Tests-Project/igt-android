@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="key_vibration">KEY_VIBRATION</string>
+    <string name="key_suono_errore">KEY_SUONO_ERRORE</string>
+    <string name="key_suono_corretto">KEY_SUONO_CORRETTO</string>
+    <string name="key_pressure_preference">KEY_PRESSURE_PREFERENCE</string>
+    <string name="key_info_pressure_preference">KEY_INFO_PRESSURE_PREFERENCE</string>
+    <string name="key_pressure_checkbox">KEY_PRESSURE_CHECKPRESSURE</string>
+    <string name="key_show_test_button">KEY_SHOW_TEST_BUTTON</string>
+    <string name="key_csv_info">KEY_CSV_INFO</string>
+    
+    
+	<string name="app_name">Iowa Gambling Task</string>
+	<string name="choice">Choice:</string>
+	<string name="net_gain">Net Gain:</string>
+	<string name="penalty">Penalty:</string>
+	<string name="titolo_gambling">Select deck by touching</string>
+	<string name="finish">
+	    Thank you for partecipating in the experiment. You may now leave. 
+		Please alert the experimenter that you are done.
+	</string>
+	<string name="profilo_delle_carte_selezionate">Profile of selected cards</string>		
+	<string name="reset">Reset</string>
+	<string name="select_deck_by_touching">Select deck by touching</string>
+	<string name="finish_titolo">Finish</string>
+	<string name="total_number_of_cards">Total number of cards selected from each deck</string>
+	<string name="minuti"> min</string>
+	<string name="ore"> hours</string>
+	<string name="tempo_impiegato">Time:</string>
+	<string name="error_no_sd">No SD card\nImpossible save</string>
+	<string name="api_level_nopdf">You can not save PDF\nPNG file will be saved
+	</string>
+	<string name="reward">Reward:</string>
+	<string name="total">Total: $</string>
+	<string name="congratulations">Congratulations!</string>
+	<string name="hai_guadagnato">You earned a total of:</string>
+	<string name="enter_participant_identifier">Enter Participant Identifier</string>
+	<string name="spiegazione1">
+	    You are about to take part in an experiment on decision making.
+	    You will start with a $2000 loan.
+		On each trial, you will select a card from one of four decks.
+		After you select each card,
+		you will be given a reward and possibly be required to pay penalty.
+		Your goal is to maximize the profit on your loan,
+		and you may choose any deck at any time to do so.
+		Touch to continue
+	</string>
+	<string name="spiegazione2">
+		You are about to take part in an experiment on decision making.
+		For each card you draws, you will get a reward.
+		This reward depends on the deck you choose, and each deck has a fixed reward.
+		You will also get a penalty, which will cost you money.
+		Penalties are somewhat random;
+		the penalty you will get is different for different cards in the deck.
+		Sometimes the penalty will be zero,
+		and sometimes it will be larger,
+		at times even larger than the reward you get for choosing that deck.
+		You will start with a $2000 loan and you should try to get as much money as
+		possible by the end of the study.
+		<!-- Touch to start -->
+	</string>
+	<string name="spiegazione3">
+	    At the bottom of the screen, there is a graph which
+		shows you your current earnings. 
+		The more money you have, the larger the bar will be.
+		\nNow, you will begin the test.\nDo you have any question?
+		\nTouch to continue
+	</string>
+	<string name="start">Start </string>
+	<string name="grafico">Charts</string>
+	<string name="grafico1">Chart 1</string>
+	<string name="grafico2">Chart 2</string>
+	<string name="exit">Exit</string>
+	<string name="salva">Save Pdf</string>
+	<string name="salva_csv">Save Csv</string>
+	<string name="salvato">Saved</string>
+	<string name="info">Info</string>
+	<string name="help">Help</string>
+	<string name="about_message1">
+	    This program reproduces the neuropsychological tests called \&quot;Iowa gambling task\&quot;,
+		described for the first time in:
+		\n BECHARA, A., DAMASIO, A.R., DAMASIO, H. e ANDERSON, S. (1994),
+		Insensitivity to future consequences following damage to human prefrontal cortex.
+		Cognition, n. 50, pp. 7-12.
+		\n\nThis work is licensed under the Creative Commons Attribution-NoDerivs 3.0 Unported.
+		To view a copy of this license, 
+		visit:\nhttp://creativecommons.org/licenses/by-nd/3.0 or send a letter
+		to Creative Commons, 171 Second Street, Suite 300, San Francisco,
+		California, 94105, USA.
+		\nThis program is distribuited \&quot;As Is\&quot; in the hope that it will be useful, 
+		but WHITOUT ANY WARRANTY.
+		\n\nThe libraries used for the chart are
+		available:\nhttp://www.achartengine.org
+		\n\nThe libraries
+		used to save
+		the pdf files are
+		available:\nhttp://itextpdf.com/itext.php
+		
+		\n\nThanks to The working
+		group for the chart icons in the
+		menu:\nhttp://blog.twg.ca/2010/11/retina-display-icon-set
+		
+		\n\nThanks to Honza Dousek for the Save-Pdf and Save-Csv icons in the menu:
+		\nhttps://www.iconfinder.com/Lexter
+				
+		\n\nThanks to David Bellot for the cards:
+		\nhttp://commons.wikimedia.org/wiki/File:Card_back_01.svg
+		
+		\n\nThanks to <i><b>Rodrigo Hohl</b></i> for the Portuguese translation.
+		
+		\n\n\nExplanation of the required permissions:		
+		\n1)Storage: the device can save a PDF file on the sd card.
+		\n2)Hardware controls: the device can vibrate.
+		
+		\n\nIf you find bug, you want send same
+		suggestions or request custom app,
+		feel free to
+		contact:\nzsimolabs@gmail.com
+		\n
+	</string>
+
+	<string name="help_message1">
+	    This app is designed to run the \&quot;Iowa Gambling
+		task\&quot; on smartphone and tablet with Android.
+		\nOn startup, after the screen to enter the name of the subject, you will
+		see a brief explanation of the experiment.
+		\nWe chose to not include in this app material about theoretical or technical
+		details concerning this procedure in order to avoid the risk of
+		influencing the experimental subjects.
+		For information, please refer to the article which this application is based:
+		\nBECHARA A., DAMASIO A.R., DAMASIO H. e ANDERSON S. (1994), Insensitivity to future
+		consequences following damage to human prefrontal cortex. Cognition, n. 50, pp. 7-12.
+		\n\nThe interface has been simplified by removing the task bar on the screens
+		in which the subjects use the terminal, so that they are not distracted by the 
+		contents of the terminal.
+		At the end of the procedure, pressing the menu button, 
+		the researcher can see 2 charts containing a summary of the results, save a PDF file and 
+		a CSV file with all the raw data.
+		The files will be saved to the sd card of the device in the folder named \&quot;iowa\&quot;;
+		the name of the files will be: \&quot;iowa\&quot; + the first two letters of
+		subject name + the date.
+		Device with Android Eclair 2.1 (api level 7) or previous can save 2 PNG
+		files with charts instead of the PDF file.
+		
+		\n\nIn the settings menu you can select the experimental options 
+		(not present in the above-mentioned article) such as: associate a sound 
+		or a short vibration (vibration is not avaible on Motorola Xoom) to winnings 
+		and losses, show the progression of the selections.
+		
+		\n\nVersion 1.7 introduced the ability to export all the data recorded in a CSV file; 
+		the data are:\n
+		- participant\'s name\n
+		- trial number\n
+		- selected deck\n
+		- reward\n
+		- penalty\n
+		- net gain\n
+		- total earned\n
+		- response time (the interval in milliseconds between trials)\n
+		- pressure put on display (if enabled)\n
+		- pressure style (if enabled)\n
+		- touch speed (for how many milliseconds the finger is in contact with the display)\n
+		- time\n
+		- date\n
+		
+	</string>
+	<string name="pi_di_un_giorno">more than a day</string>
+	<string name="meno_di_un_minuto">less than a minute</string>
+	<string name="introduzione">Introduction</string>
+	<string name="settings">Settings</string>
+	<string name="vibration">Vibration</string>
+	<string name="vibrazione_subtitle">Short vibration if the penalty is larger than the reward</string>
+	<string name="suono_errore">Penality sound</string>
+	<string name="suono_corretto">Reward sound</string>
+	<string name="suono_errore_summary">Play sound if the penalty is larger than the reward</string>
+	<string name="suono_corretto_summary">
+	    Play sound even if the reward is larger than the penalty
+	</string>
+	<string name="ver_number">1.7.2</string>
+	<string name="nome">Name</string>
+	<string name="tempo">Time</string>
+	<string name="score">Score</string>
+	<string name="about">About</string>
+	<string name="key_preference_category_effetti">KEY_PREFERENCE_CATEGORY_EFFETTI</string>
+	<string name="make_donation">Make a donation</string>
+	<string name="key_donazione_preference">KEY_DONAZIONE_PREFERENCEa</string>
+	<string name="donazione_summary">This application is free and without advertising.
+	    If it is helpful and if you deem it appropriate, 
+	    you can contribute to the work of the developer making a donation.
+	</string>
+	<string name="donazione">donation</string>
+	<string name="paypal_input_error">ERROR\nNot a correct value</string>
+	<string name="testo_donazione">Enter what you want to donate (in EURO) and click on the yellow button below</string>
+	<string name="grazie_donazione">Thanks for donating!</string>
+	<string name="donazione_operazione_annullata">Operation canceled</string>
+	<string name="effect">Research Options</string>
+	<string name="contribuisci">Contribute</string>
+	<string name="changelog">ChangeLog</string>
+	<string name="key_about_preference">KEY_ABOUT_PREFERENCE</string>
+	<string name="changelog_testo">
+	    	1.7.2:
+	    	\nFixed bug in the order of the labels in the first chart.
+	    	\nFixed month number in the name of the files starts from 0.
+	    
+	    	\n\n1.7.1:
+	    	\nBetter support to Portuguese.
+	    	\nMinor fixes.
+	    	
+	    	\n\n1.7:
+	    	\nSave raw data in a CSV file.
+	    
+	    	\n\n1.6:
+        	\nAdded support to the Portuguese language.
+        	\nThanks to Rodrigo Hohl for translation.
+        	
+	        \n\n1.5:
+	        \nOptimized for Kindle Fire and tablet with 7-inch screen.
+	        \nAdded possibility to move the app to the SD card.
+	        \nNew graphical interface.
+	        
+	        \n\n1.4:
+	        \nAs suggested by a user, increased the size of the graphs in the pdf file.
+	        \nImproved definition of menu icons.
+	        \nImproved volume control.
+	        \nFixed misprints.
+	        
+	        \n\n1.3:
+	        \nIn order to help the researcher to study this test, 
+	        it is now possible to display the progression of the selections.
+	        
+	        \n\n1.2:
+	        \nThe application, maintaining the previous features, is now free:
+	        we have chosen to promote the diffusion and circulation 
+	        in order to be able to improve it and validate it through a larger number of feedback.
+	        For those who deem it appropriate, we have introduced the possibility of making a donation.
+	        
+	        \n\n1.1:
+	        \nAdded sound and vibration (vibration is not available for Motorola Xoom).
+	</string>
+	<string name="contatore_selezioni">Counter selections</string>
+	<string name="contatore_selezioni_summary">Shows the progression of the selected cards</string>
+	<string name="key_contatore_carte">KEY_CONTATORE_CARTE</string>
+	<string name="selezione_n">Selection n:</string>
+	<string name="app_name_min">IGT</string>
+	<string name="spiegazione">Explanation:</string>
+	<string name="vuoi_terminare_test">Want to quit?</string>
+	<string name="si">Yes</string>
+	
+	<string name="my_continue">Continue</string>
+	<string name="trial">trial</string>
+	<string name="deck">deck</string>
+	<string name="css_name">name</string>
+	<string name="css_reward">reward</string>
+	<string name="css_penalty">penalty</string>
+	<string name="css_gain">gain</string>
+	<string name="css_total">total</string>
+	<string name="css_hh_mm_ss">hh_mm_ss</string>
+	<string name="css_date">YYYY_MM_DD</string>
+	<string name="css_response_time">response_time</string>
+	<string name="css_touch_speed">touch_speed</string>
+	<string name="css_pressure">pressure</string>
+	<string name="css_pressure_style">pressure_style</string>
+	
+	<string name="touch_test_button_label">Pressure Test</string>
+	<string name="touch_pressure">pressure:</string>
+	<string name="pressure_style">pressure style:</string>
+	<string name="touch_pressure_title">Touch Pressure</string>
+	<string name="touch_speed">touch speed (ms):</string>
+	
+	<string name="detects_the_pressure">Detect the pressure</string>
+	<!-- <string name="detects_the_pressure_info">Information about the pressure measurement 
+	    								on touch screen devices</string> -->
+	<string name="detects_the_pressure_info">Detecting the style of the touch
+	    								on touch screen devices</string>	    								
+	    								
+	<string name="detects_the_pressure_text_info">
+	    Some experimental measurements are introduced in order to detect 
+	    the touch style of the subjects: the pressure on the screen, the pressure style,
+	    the touch speed.
+	    
+	    \nThe pressure measurement on Android is device dependent:
+	    not all devices support the pressure detection and devices that support 
+	    can be calibrated differently and return different values. 
+	    
+	    When supported, the value is normalized to a range from 0.0 to 1.0, although values higher 
+		than 1.0 may be generated depending on the calibration of the input device.
+		
+		The pressure can be measured in two moments: when the finger begins the contact 
+		with the screen and when the finger stops the contact: the data saved in the CSV 
+		file is the average of these two values.	
+		When not supported, always returns the value 1.0.
+		
+		\nMoreover, for every touch, it is recorded a second measure called \"Pressure style\" which can 
+		take only three values: 
+		LOW_HIGH (when the initial pressure of the the touch is less than the final pressure),
+		HIGH_LOW (when the initial pressure is greater than the final)
+		and EQUAL (when the two pressures are equal).
+		
+		\nTo detect the style of the touch with a measure separated from the pressure,
+		and therefore available on any device, is recorder the \"Touch speed\": for each touch, 
+		for how many milliseconds the finger is in contact with the screen. 
+		
+		\n\nSumming up, the use of data related to the pressure may have value only if the device supports 
+		the detection of the pressure and the test is performed by all the subjects using the same device.
+		\nTherefore, recording and saving the pressure in the CSV file is an option that should be 
+		enabled in the Settings menu (is not recorded by default).
+		
+		\n\nFor testing and understanding these measures, you can select the option 
+		of displaying in the home screen a button that detects and displays the Pressure,
+		the Pressure style and the Touch speed.			 
+	</string>	    								
+
+	<string name="record_the_pressure">Record the pressure</string>	
+	<string name="test_button_label">Test button</string>	
+	<string name="show_test_button_text">Show the button to test pressure
+	    in the main screen</string>		     
+	     
+	<string name="csv_file_info_title">CSV file</string>
+	<string name="csv_file_info_text">Summary of the data saved in the CSV file</string>	
+	     
+	     
+	
+	 
+</resources>

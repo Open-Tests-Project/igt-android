@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings" >
+
+    <PreferenceCategory android:title="@string/about" >
+        <Preference
+            android:summary="@string/ver_number"
+            android:title="@string/app_name" android:key="@string/key_about_preference"/>
+        
+        <Preference android:key="@string/key_csv_info" android:summary="@string/csv_file_info_text" android:title="@string/csv_file_info_title"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/key_preference_category_effetti"
+        android:title="@string/effect" >
+        <CheckBoxPreference android:title="@string/contatore_selezioni" android:summary="@string/contatore_selezioni_summary" android:key="@string/key_contatore_carte"/><CheckBoxPreference
+            android:key="@string/key_vibration"
+            android:summary="@string/vibrazione_subtitle"
+            android:title="@string/vibration" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="@string/key_suono_errore"
+            android:summary="@string/suono_errore_summary"
+            android:title="@string/suono_errore" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="@string/key_suono_corretto"
+            android:summary="@string/suono_corretto_summary"
+            android:title="@string/suono_corretto" >
+        </CheckBoxPreference>        
+    </PreferenceCategory>
+    <PreferenceCategory android:key="@string/key_pressure_preference" android:title="@string/detects_the_pressure">
+        <Preference android:key="@string/key_info_pressure_preference" android:title="@string/info" android:summary="@string/detects_the_pressure_info"/>
+        <CheckBoxPreference android:key="@string/key_pressure_checkbox" android:title="@string/record_the_pressure"/>
+        <CheckBoxPreference android:key="@string/key_show_test_button" android:summary="@string/show_test_button_text" android:title="@string/test_button_label"/>
+    </PreferenceCategory>
+  
+
+</PreferenceScreen>

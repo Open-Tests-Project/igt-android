@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_spiega2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_view_titolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#811c1c"
+        android:paddingBottom="2px"
+        android:paddingTop="2px"
+        android:text="@string/spiegazione"
+        android:textColor="#fff"
+        android:textSize="36sp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#fff" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="558dp"
+        android:layout_weight="0.90" >
+
+        <TextView
+            android:id="@+id/text_view_spiega2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/spiegazione2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_gravity="right"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="@string/my_continue"
+        android:textColor="#f00"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

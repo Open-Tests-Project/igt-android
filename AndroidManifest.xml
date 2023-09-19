@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.zsimolabs.iowa" smallScreens="true" android:versionName="1.7.2"
+	android:versionCode="20"
+	 android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="11" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+	<application android:label="@string/app_name" android:icon="@drawable/ic_test">
+		<activity android:name=".IowaActivity" android:label="@string/app_name_min"
+		android:windowSoftInputMode="stateHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".Spiegazione2" android:label="@string/app_name">
+		</activity>
+
+		<activity android:name=".Gambling" android:label="@string/app_name">
+
+		</activity>
+
+		<activity android:name=".Finish">
+
+		</activity>
+
+		<activity android:name=".ProfiloCarteSelezionate"
+			android:label="@string/grafico1">
+
+		</activity>
+
+		<activity android:name=".TotalNumberCards" android:label="@string/grafico2">
+
+		</activity>
+
+		<activity android:name=".Settings">
+
+		</activity>
+		
+		<activity android:name=".MyPayPalActivity"
+			android:windowSoftInputMode="stateHidden">
+		</activity>
+		
+		<activity android:name="com.paypal.android.MEP.PayPalActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation" />
+		
+		
+		<activity android:name=".DialogInfo"></activity>
+
+
+	</application>
+</manifest>
